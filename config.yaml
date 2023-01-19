@@ -234,7 +234,7 @@ PHONE_LIGHT:
 
 # See https://www.rapids.science/latest/features/phone-locations/
 PHONE_LOCATIONS:
-  CONTAINER: remap_test.csv
+  CONTAINER: remap_debug.csv
   LOCATIONS_TO_USE: ALL # ALL, GPS, ALL_RESAMPLED, OR FUSED_RESAMPLED
   FUSED_RESAMPLED_CONSECUTIVE_THRESHOLD: 60 # minutes, only replicate location samples to the next sensed bin if the phone did not stop collecting data for more than this threshold
   FUSED_RESAMPLED_TIME_SINCE_VALID_LOCATION: 720 # minutes, only replicate location samples to consecutive sensed bins if they were logged within this threshold after a valid location row
